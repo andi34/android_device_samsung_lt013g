@@ -24,9 +24,9 @@
         "revision": "cm-10.2"
     },
     {
-        "remote": "omnirom",
-        "repository": "android_hardware_samsung",
+        "remote": "github",
+        "repository": "kumajaya/android_hardware_samsung",
         "target_path": "hardware/samsung",
-        "revision": "android-4.3"
+        "revision": "cm-10.2"
     }
 ]
