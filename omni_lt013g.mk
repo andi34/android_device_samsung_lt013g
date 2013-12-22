@@ -1,5 +1,11 @@
-# Specify phone tech before including full_phone
+# Inherit Omni GSM telephony parts
 $(call inherit-product, vendor/omni/config/gsm.mk)
+
+# Inherit from the common Open Source product configuration
+$(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
+
+# Inherit from our omni product configuration
+$(call inherit-product, vendor/omni/config/common.mk)
 
 # Release name
 PRODUCT_RELEASE_NAME := lt013g
@@ -8,8 +14,6 @@ PRODUCT_RELEASE_NAME := lt013g
 TARGET_SCREEN_HEIGHT := 1280
 TARGET_SCREEN_WIDTH := 800
 
-# Inherit from our custom product configuration
-$(call inherit-product, vendor/omni/config/common.mk)
 $(call inherit-product, device/samsung/lt013g/device.mk)
 
 # Inherit device configuration
