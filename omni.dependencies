@@ -13,6 +13,12 @@
     },
     {
         "remote": "github",
+		"repository": "kumajaya/proprietary_vendor_samsung,
+        "target_path": "vendor/samsung",
+        "revision": "cm-10.2"
+    },
+    {
+        "remote": "github",
 		"repository": "CyanogenMod/android_packages_apps_SamsungServiceMode",
         "target_path": "packages/apps/SamsungServiceMode",
         "revision": "cm-10.2"
