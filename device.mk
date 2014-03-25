@@ -36,8 +36,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libsecril-client \
     libsecril-client-sap \
-    Stk \
-    SamsungServiceMode
+    Stk
 
 # RIL
 PRODUCT_PROPERTY_OVERRIDES += \
